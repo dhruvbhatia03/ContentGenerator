@@ -17,7 +17,7 @@ function OutputSection({aiOutput}:props) {
   },[aiOutput])
 
   return (
-    <div className='bg-gray-800 shadow-lg border rounded-lg'>
+    <div className='bg-gray-900 shadow-lg border rounded-lg'>
       <div className='flex justify-between items-center text-white p-5'>
         <h2 className='font-medium text-lg'>Your Result</h2>
         <Button className='flex gap-2'
