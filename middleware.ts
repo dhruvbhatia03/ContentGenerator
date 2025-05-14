@@ -1,11 +1,19 @@
+// middleware.ts
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
-const isProtectedRoute = createRouteMatcher(['/dashboard(.*)']);
+const isProtectedRoute = createRouteMatcher([
+  "/dashboard(.*)",
+]);
 
 export default clerkMiddleware((auth, req) => {
-  if (isProtectedRoute(req)) auth().protect();
+  // Only protect if it's a protected route
+  if (isProtectedRoute(req)) {
+    auth().protect(); // Will redirect to sign-in if not authenticated
+  }
 });
 
 export const config = {
-  matcher: ['/((?!.*\\..*|_next).*)', '/', '/(api|trpc)(.*)'],
+  matcher: [
+    "/dashboard(.*)", // Only run middleware on dashboard pages
+  ],
 };
