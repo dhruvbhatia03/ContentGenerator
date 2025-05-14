@@ -9,5 +9,5 @@ const isProtectedRoute = createRouteMatcher([
 
   ]);
 export const config = {
-  matcher: ['/dashboard/:path*'],
+  matcher: ['/((?!_next|favicon.ico).*)'],
 };
