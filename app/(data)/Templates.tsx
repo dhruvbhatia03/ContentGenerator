@@ -48,7 +48,7 @@ export default  [
         category: 'Blog',
         icon: 'https://cdn-icons-png.flaticon.com/128/11497/11497847.png',
         slug: 'blog-topic-idea',
-        aiPrompt: 'Generate top 5 Blog Topic Ideas in bullet point only, (no Description) based on niche in rich text editor format',
+        aiPrompt: 'Generate top 5 Blog Topic Ideas in bullet point only, (no Description) based on niche in plain text.',
         form: [
             {
                 label: 'Enter your Niche',
@@ -64,7 +64,7 @@ export default  [
         category: 'Youtube Tools',
         icon: 'https://cdn-icons-png.flaticon.com/128/402/402075.png',
         slug: 'youtube-seo-title',
-        aiPrompt: 'Give me Best SEO optimized high ranked 5 title ideas bullet wise only bases on keywords and outline and give me result in HTML tags format',
+        aiPrompt: 'Give me Best SEO optimized high ranked 5 title ideas bullet wise only bases on keywords and outline and give me result in plain text.',
         form: [
             {
                 label: 'Enter your youtube video topic keyowords',
@@ -87,7 +87,7 @@ export default  [
         category: 'Youtube Tool',
         icon: 'https://cdn-icons-png.flaticon.com/128/2111/2111748.png',
         slug: 'youtube-description',
-        aiPrompt: 'Generate Youtube description with emoji under 4-5 lines based on topic and outline in rich text editor format',
+        aiPrompt: 'Generate Youtube description with emoji under 4-5 lines based on topic and outline in plain text.',
         form: [
             {
                 label: 'Enter your blog topic/title',
@@ -109,7 +109,7 @@ export default  [
         icon: 'https://cdn-icons-png.flaticon.com/128/4674/4674918.png',
         slug: 'youtube-tag',
 
-        aiPrompt: 'Generate 10 Youtube tags in bullet point based on title and outline in rich text editor format',
+        aiPrompt: 'Generate 10 Youtube tags in bullet point based on title and outline in plain text.',
 
         form: [
             {
@@ -132,7 +132,7 @@ export default  [
         icon: 'https://cdn-icons-png.flaticon.com/128/3131/3131607.png',
         category: 'Rewriting Tool',
         slug: 'rewrite-article',
-        aiPrompt: 'Rewrite give article without any Plagiarism in rich text editor format',
+        aiPrompt: 'Rewrite give article without any Plagiarism in plain text.',
         form: [
             {
                 label: '🤖 Provide your Article/Blogpost or any other content to rewrite.',
@@ -148,7 +148,7 @@ export default  [
         icon: 'https://cdn-icons-png.flaticon.com/128/1686/1686815.png',
         category: 'Writing Assistant',
         slug: 'text-improver',
-        aiPrompt: 'Given textToImprove, Rewrite text without any grammar mistake and professionally in rich text editor format',
+        aiPrompt: 'Given textToImprove, Rewrite text without any grammar mistake and professionally in plain text.',
         form: [
             {
                 label: 'Enter text that you want to re-write or improve',
@@ -163,7 +163,7 @@ export default  [
         icon: 'https://cdn-icons-png.flaticon.com/128/2584/2584606.png',
         category: 'blog',
         slug: 'add-emoji-to-text',
-        aiPrompt: 'Add Emoji to outline text depends on outline and rewrite it in rich text editor format',
+        aiPrompt: 'Add Emoji to outline text depends on outline and rewrite it in plain text.',
         form: [
             {
                 label: 'Enter your text to add emojis',
@@ -180,7 +180,7 @@ export default  [
         category: 'blog',
        
         slug: 'instagram-post-generator',
-        aiPrompt: 'Generate 3 Instagram post depends on a given keywords and give output in  in rich text editor format',
+        aiPrompt: 'Generate 3 Instagram post depends on a given keywords and give output in plain text.',
         form: [
             {
                 label: 'Enter Keywords for your post',
@@ -198,7 +198,7 @@ export default  [
         category: 'blog',
        
         slug: 'instagram-hash-tag-generator',
-        aiPrompt: 'Generate 15 Instagram hash tag depends on a given keywords and give output in  in rich text editor format',
+        aiPrompt: 'Generate 15 Instagram hash tag depends on a given keywords and give output in plain text.',
         form: [
             {
                 label: 'Enter Keywords for your instagram hastag',
@@ -216,7 +216,7 @@ export default  [
         category: 'instagram',
        
         slug: 'instagram-post-idea-generator',
-        aiPrompt: 'Generate 5-10 Instagram idea depends on niche with latest trend and give output in  in rich text editor format',
+        aiPrompt: 'Generate 5-10 Instagram idea depends on niche with latest trend and give output in plain text.',
         form: [
             {
                 label: 'Enter Keywords / Niche for your instagram idea',
@@ -234,7 +234,7 @@ export default  [
         category: 'english',
        
         slug: 'english-grammer-checker',
-        aiPrompt: 'Rewrite the inputText by correcting the grammer and give output in  in rich text editor format',
+        aiPrompt: 'Rewrite the inputText by correcting the grammer and give output in plain text.',
         form: [
             {
                 label: 'Enter text to correct the grammer',
@@ -252,7 +252,7 @@ export default  [
         category: 'Coding',
        
         slug: 'write-code',
-        aiPrompt: 'Depends on user codeDescription write a code and give output in  in rich text editor format in code block ',
+        aiPrompt: 'Depends on user codeDescription write a code and give output in plain text in code block ',
         form: [
             {
                 label: 'Enter description of code you want along with Programming Lang',
@@ -270,7 +270,7 @@ export default  [
         category: 'Coding',
        
         slug: 'explain-code',
-        aiPrompt: 'Depends on user codeDescription explain code line by line and give output in  in rich text editor format in code block ',
+        aiPrompt: 'Depends on user codeDescription explain code line by line and give output in plain text in code block ',
         form: [
             {
                 label: 'Enter code which you want to understand',
@@ -288,7 +288,7 @@ export default  [
         category: 'code-bug-detector',
        
         slug: 'code-bug-detector',
-        aiPrompt: 'Depends on user codeInput find bug in code and give solution and give output in  in rich text editor format in code block ',
+        aiPrompt: 'Depends on user codeInput find bug in code and give solution and give output in plain text in code block ',
         form: [
             {
                 label: 'Enter code which you want to test bug',
@@ -306,7 +306,7 @@ export default  [
         category: 'Marketting',
        
         slug: 'tagline-generator',
-        aiPrompt: 'Depends on user productName and outline generate catchy 5-10 tagline for the business product and give output  in rich text editor format ',
+        aiPrompt: 'Depends on user productName and outline generate catchy 5-10 tagline for the business product and give output in plain text.',
         form: [
             {
                 label: 'Product/Brand Name',
@@ -330,7 +330,7 @@ export default  [
         category: 'Marketting',
        
         slug: 'product-description',
-        aiPrompt: 'Depends on user productName and description generate small description for product for e-commer business give output  in rich text editor format  ',
+        aiPrompt: 'Depends on user productName and description generate small description for product for e-commer business give output in plain text.',
         form: [
             {
                 label: 'Product Name',
